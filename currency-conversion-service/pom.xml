@@ -101,15 +101,11 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <image>
-                        <name>amazonaws/restack/${project.artifactId}:${project.version}</name>
-                    </image>
-                    <pullPolicy>IF_NOT_PRESENT</pullPolicy>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-     
+
     <repositories>
         <repository>
             <id>spring-milestones</id>
